@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: python-code-scanning
-      uses: jitsecurity-controls/jit-github-action@v1.5
+      uses: jitsecurity-controls/jit-github-action@v1.6
       with:
         docker_user: jit-bot
         docker_password: Z2hwX1JrdUpqZk5QTk5XWmpzVDRZb0J0Z3ZCNnBJOGtNMDNBbDlzMAo=
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: semgrep-code-scanning
-      uses: jitsecurity-controls/jit-github-action@v1.5
+      uses: jitsecurity-controls/jit-github-action@v1.6
       with:
         docker_user: jit-bot
         docker_password: Z2hwX1JrdUpqZk5QTk5XWmpzVDRZb0J0Z3ZCNnBJOGtNMDNBbDlzMAo=
@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: golang-code-scanning
-      uses: jitsecurity-controls/jit-github-action@v1.5
+      uses: jitsecurity-controls/jit-github-action@v1.6
       with:
         docker_user: jit-bot
         docker_password: Z2hwX1JrdUpqZk5QTk5XWmpzVDRZb0J0Z3ZCNnBJOGtNMDNBbDlzMAo=
